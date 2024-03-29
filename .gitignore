@@ -1,0 +1,6 @@
+__pycache__
+.venv
+.vscode
+/src/__pycache__
+/src/app.exe
+/src/pysidedeploy.spec
