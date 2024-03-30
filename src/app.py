@@ -17,16 +17,9 @@ v 0.1
 - threading
 """
 
+if __name__ == "__main__":  
+    app = QApplication(sys.argv)
+    downloader_app = MainWindow()
+    downloader_app.show()
 
-class App:
-
-    def __init__(self) -> None:
-        self.app = QApplication(sys.argv)
-        downloader_app = MainWindow()
-        downloader_app.show()
-
-        sys.exit(self.app.exec())
-
-
-if __name__ == "__main__":
-    App()
+    sys.exit(app.exec())
