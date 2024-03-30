@@ -1,11 +1,11 @@
 # Python Utube Downloader
-Version 0.1
 
-## Current Feature
+## Feature
+### Version 0.1
 - Download Video From Youtube
 - Preview Video
 - Progress Bar
 
-## Version 0.1.5
-Adding Ability to select folder to save video
-and set a placeholder for url and folder path
+### Version 0.1.5
+- Adding Ability to select folder to save video
+- set a placeholder for url and folder path
