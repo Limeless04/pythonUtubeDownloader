@@ -1,4 +1,5 @@
 # Python Utube Downloader
+A simple Python Youtube Downloader with PySide6 and Pytube
 
 ## Feature
 ### Version 0.1
