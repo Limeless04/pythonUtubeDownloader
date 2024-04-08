@@ -7,7 +7,7 @@ import sys
 
 """
 Aplikasi Download Video Youtube sederhana
-v 0.1
+v0.1
 
 # current feature
 - Preview Video
@@ -18,6 +18,10 @@ v 0.1
 # feature to be added
 - choose where to save the downloded video
 - threading
+
+v0.2
+Refactor the code to be more inline with OOP
+split the code into diffrent class
 """
 
 if __name__ == "__main__":  
