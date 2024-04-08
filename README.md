@@ -1,4 +1,5 @@
-# Version 0.2
+# Python Utube Downloader
+## Version 0.2
 In this version, I just refactor the code to be more inline with OOP
 I Split the code into diffrent class, to make it easier to work with
 
