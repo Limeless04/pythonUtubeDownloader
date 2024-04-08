@@ -1,4 +1,7 @@
-from MainWindow import MainWindow
+# from MainWindow import MainWindow
+from View import MainWindow
+from VideoPreview import VideoPreview
+from Controller import VideoDownloaderController
 from PySide6.QtWidgets import QApplication
 import sys
 
@@ -19,7 +22,6 @@ v 0.1
 
 if __name__ == "__main__":  
     app = QApplication(sys.argv)
-    downloader_app = MainWindow()
-    downloader_app.show()
-
+    view = MainWindow()
+    view.show()
     sys.exit(app.exec())

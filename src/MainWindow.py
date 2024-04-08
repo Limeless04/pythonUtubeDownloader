@@ -59,11 +59,15 @@ class MainWindow(QWidget):
 
     def populate_quality_options(self):
         self.quality_combo.clear()
-        url = self.url_entry.text()
-        yt = YouTube(url)
-        streams = yt.streams.filter(progressive=True, file_extension='mp4').order_by('resolution')
-        for stream in streams:
-            self.quality_combo.addItem(f"{stream.resolution} - {stream.mime_type}")
+        quality_array = ["Choose Video Quality", "720p", "480p", "360p"]
+        for resolution in quality_array:
+            self.quality_combo.addItem(resolution)
+        # url = self.url_entry.text()
+        # yt = YouTube(url)
+        # streams = yt.streams.filter(progressive=True, file_extension='mp4').order_by('resolution')
+        # print(streams)
+        # for stream in streams:
+        #     self.quality_combo.addItem(f"{stream.resolution} - {stream.mime_type}")
 
     def download_video(self):
         print("Donwloading...")
